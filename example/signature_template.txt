@@ -1,0 +1,6 @@
+John Doe
+Software Engineer | Example Corp
+john.doe@example.com | +1 (555) 123-4567
+
+"{quote}"
+  — {author} {book}
