@@ -17,6 +17,12 @@ Typical workflow:
 
 Advanced mode (checkbox) additionally lets you add, edit, and remove quotations, and save the updated XML library.
 
+## Picture display
+
+The application can display a random image alongside the current quotation. In the **Settings** tab, set the **Pictures directory** field to a folder containing image files. Every time **New image** is clicked (or a new quotation is loaded), a random image from that folder — including sub-folders — is picked and shown scaled to fit the view (max 600 × 400 px).
+
+Supported formats are whatever Qt's image reader supports on your platform (PNG, JPEG, GIF, BMP, etc.). Leave the field empty to disable the feature.
+
 ## Example files
 
 The `example/` directory contains ready-to-use sample files:
